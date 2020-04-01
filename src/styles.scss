@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+
 $primary-color: white;
-$bg: black;
+$bg: cadetblue;
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
-  color: $primary-color;
-  background-color: $bg;
+  font-family: 'Raleway', sans-serif;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.sidebar {
+  background: $bg;
+  padding: 1em;
 }
