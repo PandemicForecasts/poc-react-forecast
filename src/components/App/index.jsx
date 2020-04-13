@@ -1,4 +1,5 @@
 import { Button, Col, Container, Row } from 'reactstrap'
+import ButtonBar from '../button-bar'
 import Graph from '~/components/graph'
 import Nav from '~/components/nav'
 import React, { useState } from 'react'
@@ -23,11 +24,10 @@ const App = () => {
             <Graph data={forecastData[1]} />
           </Col>
         </Row>
-        <Row>
-          <Col className="text-center">
-            <Button onClick={changeGraph}>Change</Button>
-          </Col>
-        </Row>
+        <ButtonBar>
+          <Button key='a' onClick={changeGraph}>Button A</Button>
+          <Button key='b' onClick={changeGraph}>Button B</Button>
+        </ButtonBar>
       </Container>
     </div>
   )
