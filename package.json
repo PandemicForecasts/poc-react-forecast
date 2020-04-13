@@ -8,15 +8,19 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm dist/bundle.js",
-    "start": "ENV=development parcel src/index.html",
+    "start": "parcel src/index.html",
     "build-prod": "ENV=production parcel build src/index.html"
   },
   "dependencies": {
-    "@material-ui/core": "^4.9.8",
+    "@types/react": "^16.9.34",
+    "bootstrap": "^4.4.1",
+    "emotion": "^10.0.27",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-simple-maps": "^2.0.0",
+    "reactstrap": "^8.4.1",
     "recharts": "^1.8.5"
   },
   "devDependencies": {
@@ -31,6 +35,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
     "eslint-plugin-standard": "^4.0.1",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.3"
