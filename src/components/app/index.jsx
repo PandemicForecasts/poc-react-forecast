@@ -1,5 +1,5 @@
 import { Button, Col, Container, Row } from 'reactstrap'
-import ButtonBar from '../button-bar'
+import ButtonBar from '~/components/button-bar'
 import Graph from '~/components/graph'
 import Nav from '~/components/nav'
 import React, { useState } from 'react'
